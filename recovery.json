@@ -1,0 +1,61 @@
+import json
+import re
+from pathlib import Path
+
+file_path = Path("queries.json")
+backup_path = Path("queries_backup.json")
+
+with file_path.open("r", encoding="utf-8") as f:
+    data = json.load(f)
+
+# Back up the original file
+with backup_path.open("w", encoding="utf-8") as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+# Match IDs such as code_of_conduct_sec9_1
+# Keep everything from _sec onward unchanged.
+pattern = re.compile(r"^(.+?)_sec(.+)$")
+
+changes = 0
+
+def transform_id(value):
+    global changes
+
+    match = pattern.match(value)
+    if not match:
+        return value
+
+    topic = match.group(1).replace("_", " ")
+    section = match.group(2)
+
+    corrected = f"{topic}_sec{section}"
+
+    if corrected != value:
+        changes += 1
+
+    return corrected
+
+
+def process(obj):
+    if isinstance(obj, dict):
+        return {
+            key: process(value)
+            for key, value in obj.items()
+        }
+
+    if isinstance(obj, list):
+        return [process(item) for item in obj]
+
+    if isinstance(obj, str):
+        return transform_id(obj)
+
+    return obj
+
+
+corrected_data = process(data)
+
+with file_path.open("w", encoding="utf-8") as f:
+    json.dump(corrected_data, f, indent=2, ensure_ascii=False)
+
+print(f"Corrected {changes} ID occurrences.")
+print(f"Backup saved to: {backup_path}")
