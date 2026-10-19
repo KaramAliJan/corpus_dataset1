@@ -1,1 +1,1106 @@
 
+[
+  {
+    "task_id": "onboarding_001",
+    "category": "onboarding",
+    "english_text": "A new employee has submitted identity, tax, and employment forms but has not provided an emergency contact. What must HR and the employee do, and can setup remain pending?",
+    "roman_urdu_natural": "Ek new employee ne identity, tax aur employment forms de diye hain lekin emergency contact nahi diya. HR aur employee ko kya karna chahiye, aur kya setup pending reh sakta hai?",
+    "roman_urdu_codemixed": "New employee identity, tax aur employment forms submit kiye hain lekin emergency contact missing hai. HR aur employee ko kya steps lene chahiye, aur kya setup pending reh sakta hai?",
+    "expected_answer": "The emergency-contact information is still a required onboarding item and should be requested; related administrative activities may remain pending until the missing information is provided. Required documents are due before or on the first working day; HR should create the personnel record with the required employment details. If documentation is incomplete, HR may request it and certain administrative or system-access activities may remain pending.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "onboarding documentation HR registration incomplete access required documents emergency contact first day"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_1",
+      "Onboarding Policy_sec9_2",
+      "Onboarding Policy_sec9_12"
+    ]
+  },
+  {
+    "task_id": "onboarding_002",
+    "category": "onboarding",
+    "english_text": "A new employee starts today with only proof of identity and asks for full system access before submitting tax documents. What must HR and the employee do, and can setup remain pending?",
+    "roman_urdu_natural": "Ek new employee aaj start karta hai aur sirf identity proof deta hai, lekin tax documents diye baghair full system access mangta hai. HR aur employee ko kya karna chahiye, aur kya setup pending reh sakta hai?",
+    "roman_urdu_codemixed": "New employee today starts with identity proof only and requests full system access before submitting tax docs. HR aur employee ko kya steps lene chahiye, aur kya setup pending reh sakta hai?",
+    "expected_answer": "The employee must provide the required documents before or on the first working day. Access can be limited or remain pending while required documentation is incomplete. Required documents are due before or on the first working day; HR should create the personnel record with the required employment details. If documentation is incomplete, HR may request it and certain administrative or system-access activities may remain pending.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "onboarding documentation HR registration incomplete access missing tax documentation system access"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_1",
+      "Onboarding Policy_sec9_2",
+      "Onboarding Policy_sec9_12"
+    ]
+  },
+  {
+    "task_id": "onboarding_003",
+    "category": "onboarding",
+    "english_text": "A new employee has provided all forms but HR has not recorded the manager and work arrangement. What must HR and the employee do, and can setup remain pending?",
+    "roman_urdu_natural": "Ek new employee ne tamam forms de diye hain lekin HR ne manager aur work arrangement record nahi kiya. HR aur employee ko kya karna chahiye, aur kya setup pending reh sakta hai?",
+    "roman_urdu_codemixed": "New employee all forms provide kiye hain lekin HR ne manager aur work arrangement record nahi kiya. HR aur employee ko kya steps lene chahiye, aur kya setup pending reh sakta hai?",
+    "expected_answer": "HR should create the personnel record and record the department, position, manager, employment start date, and work arrangement during onboarding. Required documents are due before or on the first working day; HR should create the personnel record with the required employment details. If documentation is incomplete, HR may request it and certain administrative or system-access activities may remain pending.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "onboarding documentation HR registration incomplete access HR registration manager work arrangement"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_1",
+      "Onboarding Policy_sec9_2",
+      "Onboarding Policy_sec9_12"
+    ]
+  },
+  {
+    "task_id": "onboarding_004",
+    "category": "onboarding",
+    "english_text": "A new employee is remote and has submitted employment forms electronically but one required identification document is missing. What must HR and the employee do, and can setup remain pending?",
+    "roman_urdu_natural": "Ek new employee remote hai aur employment forms electronically submit kiye hain lekin required identification document missing hai. HR aur employee ko kya karna chahiye, aur kya setup pending reh sakta hai?",
+    "roman_urdu_codemixed": "New employee remote hai aur forms electronically submit kiye hain lekin required ID document missing hai. HR aur employee ko kya steps lene chahiye, aur kya setup pending reh sakta hai?",
+    "expected_answer": "Remote onboarding can be electronic, but it does not remove the documentation obligation; HR may request the missing document and keep related activities pending. Required documents are due before or on the first working day; HR should create the personnel record with the required employment details. If documentation is incomplete, HR may request it and certain administrative or system-access activities may remain pending.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "onboarding documentation HR registration incomplete access remote onboarding missing identification document"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_1",
+      "Onboarding Policy_sec9_2",
+      "Onboarding Policy_sec9_12"
+    ]
+  },
+  {
+    "task_id": "onboarding_005",
+    "category": "onboarding",
+    "english_text": "A new employee submits documents on day two and says the manager verbally approved the delay. What must HR and the employee do, and can setup remain pending?",
+    "roman_urdu_natural": "Ek new employee day two par documents deta hai aur kehta hai manager ne delay verbally approve kiya tha. HR aur employee ko kya karna chahiye, aur kya setup pending reh sakta hai?",
+    "roman_urdu_codemixed": "New employee day two par documents submit karta hai aur kehta hai manager ne delay verbally approve kiya tha. HR aur employee ko kya steps lene chahiye, aur kya setup pending reh sakta hai?",
+    "expected_answer": "The policy requires the documents before or on the first working day. Any exception to the standard onboarding process requires approval from the appropriate department or HR; the missing documents should still be completed. Required documents are due before or on the first working day; HR should create the personnel record with the required employment details. If documentation is incomplete, HR may request it and certain administrative or system-access activities may remain pending.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "onboarding documentation HR registration incomplete access late onboarding documents exception approval"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_1",
+      "Onboarding Policy_sec9_2",
+      "Onboarding Policy_sec9_12"
+    ]
+  },
+  {
+    "task_id": "onboarding_006",
+    "category": "onboarding",
+    "english_text": "A new employee has a recorded start date and role but the HR system lacks the department and position. What must HR and the employee do, and can setup remain pending?",
+    "roman_urdu_natural": "Ek new employee ka start date aur role recorded hai lekin HR system mein department aur position nahi hai. HR aur employee ko kya karna chahiye, aur kya setup pending reh sakta hai?",
+    "roman_urdu_codemixed": "New employee start date aur role recorded hai lekin HR system mein department aur position missing hai. HR aur employee ko kya steps lene chahiye, aur kya setup pending reh sakta hai?",
+    "expected_answer": "The HR record is incomplete. HR should enter the department, position, manager, employment start date, and work arrangement. Required documents are due before or on the first working day; HR should create the personnel record with the required employment details. If documentation is incomplete, HR may request it and certain administrative or system-access activities may remain pending.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "onboarding documentation HR registration incomplete access HR system required employment information"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_1",
+      "Onboarding Policy_sec9_2",
+      "Onboarding Policy_sec9_12"
+    ]
+  },
+  {
+    "task_id": "onboarding_007",
+    "category": "onboarding",
+    "english_text": "A new employee has not submitted emergency-contact and tax information by the end of the first working day. What must HR and the employee do, and can setup remain pending?",
+    "roman_urdu_natural": "Ek new employee ne first working day ke end tak emergency-contact aur tax information submit nahi ki. HR aur employee ko kya karna chahiye, aur kya setup pending reh sakta hai?",
+    "roman_urdu_codemixed": "New employee first working day ke end tak emergency-contact aur tax info submit nahi ki. HR aur employee ko kya steps lene chahiye, aur kya setup pending reh sakta hai?",
+    "expected_answer": "HR should request the missing information. Because required documentation is incomplete, certain administrative or system-access activities may remain pending. Required documents are due before or on the first working day; HR should create the personnel record with the required employment details. If documentation is incomplete, HR may request it and certain administrative or system-access activities may remain pending.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "onboarding documentation HR registration incomplete access first day missing onboarding documentation"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_1",
+      "Onboarding Policy_sec9_2",
+      "Onboarding Policy_sec9_12"
+    ]
+  },
+  {
+    "task_id": "onboarding_008",
+    "category": "onboarding",
+    "english_text": "A new employee cannot attend first-day orientation because an approved alternative schedule moves it to the next working day. Which onboarding deadlines and review should apply?",
+    "roman_urdu_natural": "Ek new employee first-day orientation attend nahi kar sakta kyun ke approved alternative schedule ne usay next working day par move kiya hai. Onboarding ki kaun si deadlines aur review apply hon gi?",
+    "roman_urdu_codemixed": "New employee first-day orientation attend nahi kar sakta kyun ke approved alternative schedule ne usay next working day par move kiya hai. Kaun si onboarding deadlines aur review apply hongi?",
+    "expected_answer": "The approved alternative schedule may be used, so orientation can occur on the approved alternate date. The first-week core requirements and approximately 30-day onboarding review still apply. Orientation is due on the first working day unless an alternative schedule is approved; core onboarding should be completed within the first 5 business days unless a requirement has another deadline; the manager should conduct an initial review approximately 30 calendar days after the start date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "first-day orientation first-week completion thirty-day review alternative orientation schedule first week review"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_3",
+      "Onboarding Policy_sec9_10",
+      "Onboarding Policy_sec9_11"
+    ]
+  },
+  {
+    "task_id": "onboarding_009",
+    "category": "onboarding",
+    "english_text": "A new employee completes orientation on day one but has unresolved access and training tasks on day five. Which onboarding deadlines and review should apply?",
+    "roman_urdu_natural": "Ek new employee day one orientation complete karta hai lekin day five par access aur training tasks unresolved hain. Onboarding ki kaun si deadlines aur review apply hon gi?",
+    "roman_urdu_codemixed": "New employee day one orientation complete karta hai lekin day five par access aur training tasks unresolved hain. Kaun si onboarding deadlines aur review apply hongi?",
+    "expected_answer": "Orientation completion does not complete every onboarding requirement. Core onboarding should be completed within the first 5 business days, and unresolved access or training needs can be addressed in the approximately 30-day review. Orientation is due on the first working day unless an alternative schedule is approved; core onboarding should be completed within the first 5 business days unless a requirement has another deadline; the manager should conduct an initial review approximately 30 calendar days after the start date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "first-day orientation first-week completion thirty-day review first week unresolved access training"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_3",
+      "Onboarding Policy_sec9_10",
+      "Onboarding Policy_sec9_11"
+    ]
+  },
+  {
+    "task_id": "onboarding_010",
+    "category": "onboarding",
+    "english_text": "A new employee starts on 1 March and asks whether the initial onboarding review is due exactly on 31 March. Which onboarding deadlines and review should apply?",
+    "roman_urdu_natural": "Ek new employee 1 March ko start karta hai aur poochta hai kya initial onboarding review exactly 31 March ko due hai. Onboarding ki kaun si deadlines aur review apply hon gi?",
+    "roman_urdu_codemixed": "New employee 1 March ko start karta hai aur poochta hai kya review exactly 31 March ko due hai. Kaun si onboarding deadlines aur review apply hongi?",
+    "expected_answer": "The manager should conduct the initial onboarding review approximately 30 calendar days after the start date; the policy does not require an exact date. Orientation is due on the first working day unless an alternative schedule is approved; core onboarding should be completed within the first 5 business days unless a requirement has another deadline; the manager should conduct an initial review approximately 30 calendar days after the start date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "first-day orientation first-week completion thirty-day review thirty day review approximate date"
+    },
+    "expected_retrieval_doc_id": [
+      "Onboarding Policy_sec9_3",
+      "Onboarding Policy_sec9_10",
+      "Onboarding Policy_sec9_11"
+    ]
+  }, {
+    "task_id": "offboarding_exit_001",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns and sends written notice to the manager with a final date 30 calendar days later. What notice rule and effective date apply?",
+    "roman_urdu_natural": "Ek employee resign karta hai aur manager ko written notice bhejta hai aur final date 30 calendar days baad rakhta hai. Kaun sa notice rule aur effective date apply hoga?",
+    "roman_urdu_codemixed": "Employee resign karta hai aur manager ko written notice bhejta hai aur final date 30 calendar days baad rakhta hai. Kaun sa notice rule aur effective date apply hoga?",
+    "expected_answer": "The notice matches the standard 30-calendar-day period, and receipt by the manager makes the resignation effective subject to the stated final working date. The standard notice period is 30 calendar days unless the employment agreement specifies a different period. The resignation becomes effective when the written resignation is received by the manager or HR and should state the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "resignation notice standard agreement different period 30 calendar day notice manager receipt"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_1",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },
+  {
+    "task_id": "offboarding_exit_002",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns and sends written notice to HR with a final date 25 calendar days later, while no different agreement term is shown. What notice rule and effective date apply?",
+    "roman_urdu_natural": "Ek employee resign karta hai aur HR ko written notice bhejta hai aur final date 25 calendar days baad rakhta hai, agreement mein different term nahi. Kaun sa notice rule aur effective date apply hoga?",
+    "roman_urdu_codemixed": "Employee resign karta hai aur HR ko written notice bhejta hai aur final date 25 calendar days baad rakhta hai, agreement different nahi. Kaun sa notice rule aur effective date apply hoga?",
+    "expected_answer": "The written resignation is effective when HR receives it, but the standard notice is 30 calendar days unless the agreement specifies otherwise; the 25-day date would need an approved shorter notice. The standard notice period is 30 calendar days unless the employment agreement specifies a different period. The resignation becomes effective when the written resignation is received by the manager or HR and should state the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "resignation notice standard agreement different period short notice HR receipt agreement"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_1",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },
+  {
+    "task_id": "offboarding_exit_003",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns and emails a coworker but not the manager or HR. What notice rule and effective date apply?",
+    "roman_urdu_natural": "Ek employee resign karta hai aur manager ya HR ke bajaye coworker ko email karta hai. Kaun sa notice rule aur effective date apply hoga?",
+    "roman_urdu_codemixed": "Employee resign karta hai aur manager ya HR ko nahi balkay coworker ko email karta hai. Kaun sa notice rule aur effective date apply hoga?",
+    "expected_answer": "The policy identifies the manager or HR as the receipt point. The resignation should be sent to one of them to establish the effective receipt. The standard notice period is 30 calendar days unless the employment agreement specifies a different period. The resignation becomes effective when the written resignation is received by the manager or HR and should state the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "resignation notice standard agreement different period resignation coworker receipt"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_1",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },
+  {
+    "task_id": "offboarding_exit_004",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns and has an employment agreement stating a different notice period. What notice rule and effective date apply?",
+    "roman_urdu_natural": "Ek employee resign karta hai aur employment agreement mein different notice period likha hai. Kaun sa notice rule aur effective date apply hoga?",
+    "roman_urdu_codemixed": "Employee resign karta hai aur employment agreement mein different notice period specified hai. Kaun sa notice rule aur effective date apply hoga?",
+    "expected_answer": "The agreement's different notice period governs instead of the standard 30 calendar days, subject to the written notice being received by the manager or HR. The standard notice period is 30 calendar days unless the employment agreement specifies a different period. The resignation becomes effective when the written resignation is received by the manager or HR and should state the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "resignation notice standard agreement different period agreement different notice period"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_1",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },
+  {
+    "task_id": "offboarding_exit_005",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns and states an intended final date but does not include a written resignation. What notice rule and effective date apply?",
+    "roman_urdu_natural": "Ek employee resign karta hai aur intended final date batata hai lekin written resignation submit nahi karta. Kaun sa notice rule aur effective date apply hoga?",
+    "roman_urdu_codemixed": "Employee resign karta hai aur intended final date batata hai lekin written resignation submit nahi karta. Kaun sa notice rule aur effective date apply hoga?",
+    "expected_answer": "The policy requires written notice and an intended final working date; a verbal statement alone does not satisfy the notice-submission requirement. The standard notice period is 30 calendar days unless the employment agreement specifies a different period. The resignation becomes effective when the written resignation is received by the manager or HR and should state the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "resignation notice standard agreement different period written resignation final date"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_1",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },
+  {
+    "task_id": "offboarding_exit_006",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns and sends written notice to both manager and HR on the same day. What notice rule and effective date apply?",
+    "roman_urdu_natural": "Ek employee resign karta hai aur same day manager aur HR dono ko written notice bhejta hai. Kaun sa notice rule aur effective date apply hoga?",
+    "roman_urdu_codemixed": "Employee resign karta hai aur same day manager aur HR dono ko written notice bhejta hai. Kaun sa notice rule aur effective date apply hoga?",
+    "expected_answer": "The resignation is effective when received by the manager or HR; sending it to both satisfies the receipt route, with the stated final date governing the notice calculation. The standard notice period is 30 calendar days unless the employment agreement specifies a different period. The resignation becomes effective when the written resignation is received by the manager or HR and should state the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "resignation notice standard agreement different period manager HR simultaneous notice"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_1",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },
+  {
+    "task_id": "offboarding_exit_007",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns and asks whether the 30-day period means 30 business days. What notice rule and effective date apply?",
+    "roman_urdu_natural": "Ek employee resign karta hai aur poochta hai kya 30-day period ka matlab 30 business days hai. Kaun sa notice rule aur effective date apply hoga?",
+    "roman_urdu_codemixed": "Employee resign karta hai aur poochta hai kya 30-day period 30 business days hai. Kaun sa notice rule aur effective date apply hoga?",
+    "expected_answer": "The standard rule specifies 30 calendar days, not 30 business days. The standard notice period is 30 calendar days unless the employment agreement specifies a different period. The resignation becomes effective when the written resignation is received by the manager or HR and should state the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "resignation notice standard agreement different period calendar days notice"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_1",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },
+  {
+    "task_id": "offboarding_exit_008",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns during probation and sends written notice to HR and proposes a final date 14 calendar days later. What is required?",
+    "roman_urdu_natural": "Ek employee probation ke dauran resign karta hai aur HR ko written notice bhejta hai aur final date 14 calendar days baad propose karta hai. Kya required hai?",
+    "roman_urdu_codemixed": "Employee probation mein resign karta hai aur HR ko written notice bhejta hai aur final date 14 calendar days baad propose karta hai. Kya required hai?",
+    "expected_answer": "The proposed period matches the probationary 14-calendar-day notice, and HR's receipt makes the resignation effective. During probation, the employee must provide 14 calendar days of written notice unless the employment agreement specifies a different requirement. The notice is effective when received by the manager or HR and should include the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "probation resignation notice 14 calendar days agreement probation 14 day notice HR"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_2",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },
+  {
+    "task_id": "offboarding_exit_009",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns during probation and sends notice for 10 calendar days without showing a different agreement term. What is required?",
+    "roman_urdu_natural": "Ek employee probation ke dauran resign karta hai aur 10 calendar days ka notice deta hai aur different agreement term show nahi karta. Kya required hai?",
+    "roman_urdu_codemixed": "Employee probation mein resign karta hai aur 10 calendar days notice deta hai aur agreement mein different term nahi. Kya required hai?",
+    "expected_answer": "The policy requires 14 calendar days during probation unless the employment agreement says otherwise; a 10-day date is not supported without an applicable agreement term or approved change. During probation, the employee must provide 14 calendar days of written notice unless the employment agreement specifies a different requirement. The notice is effective when received by the manager or HR and should include the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "probation resignation notice 14 calendar days agreement probation insufficient notice"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_2",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },
+  {
+    "task_id": "offboarding_exit_010",
+    "category": "offboarding_exit",
+    "english_text": "An employee resigns during probation and is still in probation on the notice date but will complete 90 days before the proposed final date. What is required?",
+    "roman_urdu_natural": "Ek employee probation ke dauran resign karta hai aur notice date par probation mein hai lekin proposed final date se pehle 90 days complete kar lega. Kya required hai?",
+    "roman_urdu_codemixed": "Employee probation mein resign karta hai aur notice date par probation mein hai lekin final date se pehle 90 days complete ho jayenge. Kya required hai?",
+    "expected_answer": "The policy applies the probationary notice period when the resignation occurs during probation; the proposed final date does not change the notice rule stated for the resignation date. During probation, the employee must provide 14 calendar days of written notice unless the employment agreement specifies a different requirement. The notice is effective when received by the manager or HR and should include the intended final working date.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "probation resignation notice 14 calendar days agreement probation status notice date"
+    },
+    "expected_retrieval_doc_id": [
+      "Offboarding Exit Policy_sec10_2",
+      "Offboarding Exit Policy_sec10_3"
+    ]
+  },{
+    "task_id": "overtime_001",
+    "category": "overtime",
+    "english_text": "An employee works 42 hours in a workweek, has an overtime-eligible position, and obtained approval. Does the time qualify as overtime?",
+    "roman_urdu_natural": "Ek employee workweek mein 42 hours kaam karta hai, position overtime-eligible hai aur approval li hai. Kya ye time overtime qualify karta hai?",
+    "roman_urdu_codemixed": "Employee workweek mein 42 hours kaam karta hai, position overtime-eligible hai aur approval li hai. Kya ye hours overtime qualify karte hain?",
+    "expected_answer": "The 2 hours beyond the standard 40-hour week may qualify because the employee is eligible, the work was approved, and it must be accurately recorded. Overtime compensation is available only to employees designated overtime-eligible, for approved and accurately recorded hours beyond the applicable threshold. For a standard 40-hour schedule, hours beyond 40 in the workweek may qualify; exempt employees are not eligible under this policy.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime eligibility exempt 40 hour threshold approval recording 42 hours eligible approved"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_1",
+      "Overtime Policy_sec11_9"
+    ]
+  },
+  {
+    "task_id": "overtime_002",
+    "category": "overtime",
+    "english_text": "An employee works 44 hours in a workweek but is classified as exempt. Does the time qualify as overtime?",
+    "roman_urdu_natural": "Ek employee workweek mein 44 hours kaam karta hai lekin exempt classified hai. Kya ye time overtime qualify karta hai?",
+    "roman_urdu_codemixed": "Employee workweek mein 44 hours kaam karta hai lekin exempt classified hai. Kya ye hours overtime qualify karte hain?",
+    "expected_answer": "The employee is not eligible for overtime compensation under this policy because exempt employees are not eligible. Overtime compensation is available only to employees designated overtime-eligible, for approved and accurately recorded hours beyond the applicable threshold. For a standard 40-hour schedule, hours beyond 40 in the workweek may qualify; exempt employees are not eligible under this policy.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime eligibility exempt 40 hour threshold approval recording exempt 44 hours"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_1",
+      "Overtime Policy_sec11_9"
+    ]
+  },
+  {
+    "task_id": "overtime_003",
+    "category": "overtime",
+    "english_text": "An employee works 40 hours in a week plus two hours during the employee's preferred evening time within the normal schedule. Does the time qualify as overtime?",
+    "roman_urdu_natural": "Ek employee week mein 40 hours aur normal schedule ke andar preferred evening time par do hours kaam karta hai. Kya ye time overtime qualify karta hai?",
+    "roman_urdu_codemixed": "Employee 40 hours plus preferred evening time ke two hours normal schedule ke andar kaam karta hai. Kya ye hours overtime qualify karte hain?",
+    "expected_answer": "Those hours do not constitute overtime solely because they occur outside the employee's preferred working time; the standard schedule and applicable threshold control. Overtime compensation is available only to employees designated overtime-eligible, for approved and accurately recorded hours beyond the applicable threshold. For a standard 40-hour schedule, hours beyond 40 in the workweek may qualify; exempt employees are not eligible under this policy.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime eligibility exempt 40 hour threshold approval recording preferred time normal schedule"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_1",
+      "Overtime Policy_sec11_9"
+    ]
+  },
+  {
+    "task_id": "overtime_004",
+    "category": "overtime",
+    "english_text": "An employee works 38 scheduled hours plus 4 extra approved hours under a department schedule different from 40. Does the time qualify as overtime?",
+    "roman_urdu_natural": "Ek employee 38 scheduled hours aur 4 approved extra hours kaam karta hai jab department schedule 40 se different hai. Kya ye time overtime qualify karta hai?",
+    "roman_urdu_codemixed": "Employee 38 scheduled plus 4 approved extra hours hain aur department schedule 40 se different hai. Kya ye hours overtime qualify karte hain?",
+    "expected_answer": "The applicable department schedule or employment agreement may define the standard arrangement; the policy does not allow a blanket 40-hour calculation when a different schedule applies. Overtime compensation is available only to employees designated overtime-eligible, for approved and accurately recorded hours beyond the applicable threshold. For a standard 40-hour schedule, hours beyond 40 in the workweek may qualify; exempt employees are not eligible under this policy.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime eligibility exempt 40 hour threshold approval recording different department schedule threshold"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_1",
+      "Overtime Policy_sec11_9"
+    ]
+  },
+  {
+    "task_id": "overtime_005",
+    "category": "overtime",
+    "english_text": "An employee works 41 hours but has no record of approval or the overtime period. Does the time qualify as overtime?",
+    "roman_urdu_natural": "Ek employee 41 hours kaam karta hai lekin approval ya overtime period ka record nahi. Kya ye time overtime qualify karta hai?",
+    "roman_urdu_codemixed": "Employee 41 hours kaam karta hai lekin approval aur overtime period record nahi. Kya ye hours overtime qualify karte hain?",
+    "expected_answer": "The additional hour cannot be treated as automatically payable; eligibility, authorization, and accurate time recording are required, and the employee should report the hours accurately. Overtime compensation is available only to employees designated overtime-eligible, for approved and accurately recorded hours beyond the applicable threshold. For a standard 40-hour schedule, hours beyond 40 in the workweek may qualify; exempt employees are not eligible under this policy.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime eligibility exempt 40 hour threshold approval recording 41 hours missing approval record"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_1",
+      "Overtime Policy_sec11_9"
+    ]
+  },
+  {
+    "task_id": "overtime_006",
+    "category": "overtime",
+    "english_text": "An employee works 45 hours with approval but the timekeeping record lists only a weekly total. Does the time qualify as overtime?",
+    "roman_urdu_natural": "Ek employee 45 hours approval ke saath kaam karta hai lekin timekeeping record sirf weekly total list karta hai. Kya ye time overtime qualify karta hai?",
+    "roman_urdu_codemixed": "Employee 45 hours approved hain lekin timekeeping mein sirf weekly total hai. Kya ye hours overtime qualify karte hain?",
+    "expected_answer": "The employee must record the date, start time, end time, and total hours for each overtime period; the weekly total alone is incomplete. Overtime compensation is available only to employees designated overtime-eligible, for approved and accurately recorded hours beyond the applicable threshold. For a standard 40-hour schedule, hours beyond 40 in the workweek may qualify; exempt employees are not eligible under this policy.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime eligibility exempt 40 hour threshold approval recording overtime detailed record"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_1",
+      "Overtime Policy_sec11_9"
+    ]
+  },
+  {
+    "task_id": "overtime_007",
+    "category": "overtime",
+    "english_text": "An employee works a manager calls an employee exempt from overtime and asks them to claim the extra hours. Does the time qualify as overtime?",
+    "roman_urdu_natural": "Ek employee manager exempt employee ko extra hours claim karne ko kehta hai. Kya ye time overtime qualify karta hai?",
+    "roman_urdu_codemixed": "Employee manager exempt employee ko extra hours claim karne ko kehta hai. Kya ye hours overtime qualify karte hain?",
+    "expected_answer": "The policy does not make exempt employees eligible for overtime compensation; hours should not be misclassified. Overtime compensation is available only to employees designated overtime-eligible, for approved and accurately recorded hours beyond the applicable threshold. For a standard 40-hour schedule, hours beyond 40 in the workweek may qualify; exempt employees are not eligible under this policy.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime eligibility exempt 40 hour threshold approval recording manager asks exempt overtime"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_1",
+      "Overtime Policy_sec11_9"
+    ]
+  },
+  {
+    "task_id": "overtime_008",
+    "category": "overtime",
+    "english_text": "An eligible employee works two extra hours every Friday without approval because the manager has always paid them. What should happen to the hours?",
+    "roman_urdu_natural": "Ek eligible employee manager ki previous payment ki wajah se har Friday two extra hours without approval kaam karta hai. Hours ke saath kya hona chahiye?",
+    "roman_urdu_codemixed": "Eligible employee manager ki previous payment ki wajah se har Friday 2 extra hours without approval kaam karta hai. Hours ko kaise treat karna chahiye?",
+    "expected_answer": "Recurring planned overtime should not continue without prior approval. The employee must report the hours accurately, and the organization determines the applicable treatment. Employees should obtain manager approval before overtime whenever reasonably practicable and should not intentionally work additional hours expecting automatic payment. Unapproved hours must still be reported accurately, after which the organization determines applicable treatment under its procedures.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime manager approval unapproved recurring additional work recurring Friday unapproved overtime"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_3",
+      "Overtime Policy_sec11_10",
+      "Overtime Policy_sec11_11"
+    ]
+  },
+  {
+    "task_id": "overtime_009",
+    "category": "overtime",
+    "english_text": "An eligible employee gets approval by email before a one-time deadline and records the hours. What should happen to the hours?",
+    "roman_urdu_natural": "Ek eligible employee one-time deadline se pehle email approval leta hai aur hours record karta hai. Hours ke saath kya hona chahiye?",
+    "roman_urdu_codemixed": "Eligible employee one-time deadline se pehle email approval leta hai aur hours record karta hai. Hours ko kaise treat karna chahiye?",
+    "expected_answer": "The approval and accurate record support processing, assuming the employee is overtime-eligible and the hours exceed the applicable threshold. Employees should obtain manager approval before overtime whenever reasonably practicable and should not intentionally work additional hours expecting automatic payment. Unapproved hours must still be reported accurately, after which the organization determines applicable treatment under its procedures.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime manager approval unapproved recurring additional work email approved overtime"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_3",
+      "Overtime Policy_sec11_10",
+      "Overtime Policy_sec11_11"
+    ]
+  },
+  {
+    "task_id": "overtime_010",
+    "category": "overtime",
+    "english_text": "An eligible employee works extra hours after a manager says verbally that approval is probably fine. What should happen to the hours?",
+    "roman_urdu_natural": "Ek eligible employee manager verbally kehta hai approval probably fine hai aur employee extra hours kaam karta hai. Hours ke saath kya hona chahiye?",
+    "roman_urdu_codemixed": "Eligible employee manager verbally kehta hai approval probably fine hai aur employee extra hours kaam karta hai. Hours ko kaise treat karna chahiye?",
+    "expected_answer": "Whenever reasonably practicable, approval should be obtained before work. A tentative verbal statement does not make planned overtime automatically approved; hours should still be reported accurately. Employees should obtain manager approval before overtime whenever reasonably practicable and should not intentionally work additional hours expecting automatic payment. Unapproved hours must still be reported accurately, after which the organization determines applicable treatment under its procedures.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "overtime manager approval unapproved recurring additional work tentative verbal approval"
+    },
+    "expected_retrieval_doc_id": [
+      "Overtime Policy_sec11_3",
+      "Overtime Policy_sec11_10",
+      "Overtime Policy_sec11_11"
+    ]
+  },{
+    "task_id": "performance_review_001",
+    "category": "performance_review",
+    "english_text": "An employee's status is two months into employment and still in probation. Which performance-review cycle applies?",
+    "roman_urdu_natural": "Employee ka status employment ke two months baad bhi probation mein hai. Kaun sa performance-review cycle apply hoga?",
+    "roman_urdu_codemixed": "Employee ka status employment ke 2 months baad bhi probation mein hai. Kaunsa performance review cycle apply hoga?",
+    "expected_answer": "The employee may be evaluated through the probation process rather than the standard annual review cycle. Regular employees are normally evaluated once every 12 months. An employee who has not completed probation may be evaluated through the probation process rather than the standard annual cycle; after confirmation, the employee enters the applicable annual cycle.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "annual performance review twelve months probation new employee confirmation new employee probation review"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_1",
+      "Performance Review Policy_sec12_3"
+    ]
+  },
+  {
+    "task_id": "performance_review_002",
+    "category": "performance_review",
+    "english_text": "An employee's status is confirmed after 90 days and asks whether the annual review must be held immediately. Which performance-review cycle applies?",
+    "roman_urdu_natural": "Employee ka status 90 days ke baad confirmed hai aur poochta hai kya annual review immediately hona chahiye. Kaun sa performance-review cycle apply hoga?",
+    "roman_urdu_codemixed": "Employee ka status 90 days ke baad confirmed hai aur poochta hai kya annual review immediately hona chahiye. Kaunsa performance review cycle apply hoga?",
+    "expected_answer": "After confirmation the employee is included in the applicable review cycle, but the policy does not require an immediate annual review on the confirmation date. Regular employees are normally evaluated once every 12 months. An employee who has not completed probation may be evaluated through the probation process rather than the standard annual cycle; after confirmation, the employee enters the applicable annual cycle.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "annual performance review twelve months probation new employee confirmation confirmed annual cycle timing"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_1",
+      "Performance Review Policy_sec12_3"
+    ]
+  },
+  {
+    "task_id": "performance_review_003",
+    "category": "performance_review",
+    "english_text": "An employee's status is a regular employee whose last formal review was 13 months ago. Which performance-review cycle applies?",
+    "roman_urdu_natural": "Employee ka status regular employee hai aur last formal review 13 months pehle hui. Kaun sa performance-review cycle apply hoga?",
+    "roman_urdu_codemixed": "Employee ka status regular employee hai aur last formal review 13 months pehle hui. Kaunsa performance review cycle apply hoga?",
+    "expected_answer": "The normal cycle is once every 12 months, so the review is overdue relative to the normal schedule. Regular employees are normally evaluated once every 12 months. An employee who has not completed probation may be evaluated through the probation process rather than the standard annual cycle; after confirmation, the employee enters the applicable annual cycle.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "annual performance review twelve months probation new employee confirmation annual review overdue"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_1",
+      "Performance Review Policy_sec12_3"
+    ]
+  },
+  {
+    "task_id": "performance_review_004",
+    "category": "performance_review",
+    "english_text": "An employee's status is a new hire who completed probation but has not received written confirmation in the HR process. Which performance-review cycle applies?",
+    "roman_urdu_natural": "Employee ka status new hire ne probation complete ki lekin HR process mein written confirmation nahi. Kaun sa performance-review cycle apply hoga?",
+    "roman_urdu_codemixed": "Employee ka status new hire ne probation complete ki lekin HR confirmation record nahi. Kaunsa performance review cycle apply hoga?",
+    "expected_answer": "Completion of probation alone does not establish confirmation; the applicable confirmation must be documented before relying on the regular-employee cycle. Regular employees are normally evaluated once every 12 months. An employee who has not completed probation may be evaluated through the probation process rather than the standard annual cycle; after confirmation, the employee enters the applicable annual cycle.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "annual performance review twelve months probation new employee confirmation probation completion no confirmation"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_1",
+      "Performance Review Policy_sec12_3"
+    ]
+  },
+  {
+    "task_id": "performance_review_005",
+    "category": "performance_review",
+    "english_text": "An employee's status is a regular employee whose manager wants to skip the annual cycle because objectives changed. Which performance-review cycle applies?",
+    "roman_urdu_natural": "Employee ka status regular employee hai aur manager objectives change hone ki wajah se annual cycle skip karna chahta hai. Kaun sa performance-review cycle apply hoga?",
+    "roman_urdu_codemixed": "Employee ka status regular employee hai aur objectives change hone ki wajah se annual cycle skip karna chahta hai. Kaunsa performance review cycle apply hoga?",
+    "expected_answer": "The standard annual review remains the normal requirement; an exception requires appropriate management or HR approval. Regular employees are normally evaluated once every 12 months. An employee who has not completed probation may be evaluated through the probation process rather than the standard annual cycle; after confirmation, the employee enters the applicable annual cycle.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "annual performance review twelve months probation new employee confirmation annual review skip objective change"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_1",
+      "Performance Review Policy_sec12_3"
+    ]
+  },
+  {
+    "task_id": "performance_review_006",
+    "category": "performance_review",
+    "english_text": "An employee's status is a probationary employee who receives informal feedback from coworkers. Which performance-review cycle applies?",
+    "roman_urdu_natural": "Employee ka status probationary employee hai aur coworkers se informal feedback milta hai. Kaun sa performance-review cycle apply hoga?",
+    "roman_urdu_codemixed": "Employee ka status probationary employee hai aur coworkers se informal feedback milta hai. Kaunsa performance review cycle apply hoga?",
+    "expected_answer": "Informal feedback may inform the probation process, but the employee has not moved into the standard annual cycle merely because coworkers gave feedback. Regular employees are normally evaluated once every 12 months. An employee who has not completed probation may be evaluated through the probation process rather than the standard annual cycle; after confirmation, the employee enters the applicable annual cycle.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "annual performance review twelve months probation new employee confirmation probation informal feedback"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_1",
+      "Performance Review Policy_sec12_3"
+    ]
+  },
+  {
+    "task_id": "performance_review_007",
+    "category": "performance_review",
+    "english_text": "An employee's status is a confirmed employee who asks whether confirmation resets the 12-month review cycle. Which performance-review cycle applies?",
+    "roman_urdu_natural": "Employee ka status confirmed employee poochta hai kya confirmation 12-month review cycle reset karti hai. Kaun sa performance-review cycle apply hoga?",
+    "roman_urdu_codemixed": "Employee ka status confirmed employee poochta hai kya confirmation 12-month cycle reset karti hai. Kaunsa performance review cycle apply hoga?",
+    "expected_answer": "After confirmation, the employee is included in the applicable performance review cycle; the policy does not define a separate reset rule beyond that inclusion. Regular employees are normally evaluated once every 12 months. An employee who has not completed probation may be evaluated through the probation process rather than the standard annual cycle; after confirmation, the employee enters the applicable annual cycle.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "annual performance review twelve months probation new employee confirmation confirmation cycle reset"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_1",
+      "Performance Review Policy_sec12_3"
+    ]
+  },
+  {
+    "task_id": "performance_review_008",
+    "category": "performance_review",
+    "english_text": "A manager is planning a mid-year discussion and business priorities changed three months after the annual review. What is the discussion for?",
+    "roman_urdu_natural": "Manager mid-year discussion plan karta hai aur annual review ke three months baad business priorities change hui. Discussion ka purpose kya hai?",
+    "roman_urdu_codemixed": "Manager mid-year discussion plan karta hai aur annual review ke 3 months baad business priorities change hui. Discussion ka purpose kya hai?",
+    "expected_answer": "The mid-year discussion is intended approximately 6 months after the annual review; it may adjust objectives when priorities have changed, but the timing is approximate rather than immediate. The manager should conduct a mid-year performance discussion approximately 6 months after the annual review. It can review progress, identify development needs, and adjust objectives when business priorities have changed; it is not automatically a replacement for the annual review.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "mid-year performance discussion six months objectives changed development changed priorities midyear timing"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_2",
+      "Performance Review Policy_sec12_4"
+    ]
+  },
+  {
+    "task_id": "performance_review_009",
+    "category": "performance_review",
+    "english_text": "A manager is planning a mid-year discussion and the annual review was six months ago and the manager wants to identify training needs. What is the discussion for?",
+    "roman_urdu_natural": "Manager mid-year discussion plan karta hai aur annual review six months pehle hui aur manager training needs identify karna chahta hai. Discussion ka purpose kya hai?",
+    "roman_urdu_codemixed": "Manager mid-year discussion plan karta hai aur annual review 6 months pehle hui aur manager training needs identify karna chahta hai. Discussion ka purpose kya hai?",
+    "expected_answer": "This is an appropriate use of the mid-year discussion: reviewing progress and identifying development needs. The manager should conduct a mid-year performance discussion approximately 6 months after the annual review. It can review progress, identify development needs, and adjust objectives when business priorities have changed; it is not automatically a replacement for the annual review.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "mid-year performance discussion six months objectives changed development midyear training needs"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_2",
+      "Performance Review Policy_sec12_4"
+    ]
+  },
+  {
+    "task_id": "performance_review_010",
+    "category": "performance_review",
+    "english_text": "A manager is planning a mid-year discussion and the employee asks whether a mid-year discussion automatically changes the final rating. What is the discussion for?",
+    "roman_urdu_natural": "Manager mid-year discussion plan karta hai aur employee poochta hai kya mid-year discussion automatically final rating change karti hai. Discussion ka purpose kya hai?",
+    "roman_urdu_codemixed": "Manager mid-year discussion plan karta hai aur employee poochta hai kya mid-year discussion automatically final rating change karti hai. Discussion ka purpose kya hai?",
+    "expected_answer": "The mid-year discussion can adjust objectives and identify development needs, but it is not the finalized annual rating process. The manager should conduct a mid-year performance discussion approximately 6 months after the annual review. It can review progress, identify development needs, and adjust objectives when business priorities have changed; it is not automatically a replacement for the annual review.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "mid-year performance discussion six months objectives changed development midyear rating change"
+    },
+    "expected_retrieval_doc_id": [
+      "Performance Review Policy_sec12_2",
+      "Performance Review Policy_sec12_4"
+    ]
+  },  {
+    "task_id": "probation_001",
+    "category": "probation",
+    "english_text": "A full-time new hire reaches day 90 with no final evaluation or HR confirmation record. Is the employee confirmed?",
+    "roman_urdu_natural": "Full-time new hire day 90 reach karta hai lekin final evaluation ya HR confirmation record nahi. Kya employee confirmed hai?",
+    "roman_urdu_codemixed": "Full-time new hire day 90 reach karta hai lekin final evaluation aur HR confirmation record nahi. Kya employee automatically confirmed hai?",
+    "expected_answer": "The employee is not automatically confirmed merely because day 90 has passed; the final evaluation and designated HR documentation are required. The standard probationary period is 90 calendar days from the employment start date. Completing 90 days alone does not automatically confirm the employee; confirmation requires the applicable performance decision and documentation through the designated HR process.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "90 calendar day probation confirmation not automatic day 90 no confirmation record"
+    },
+    "expected_retrieval_doc_id": [
+      "Probation Policy_sec8_1",
+      "Probation Policy_sec8_6",
+      "Probation Policy_sec8_14"
+    ]
+  },
+  {
+    "task_id": "probation_002",
+    "category": "probation",
+    "english_text": "A full-time new hire has strong performance feedback from coworkers but no manager recommendation. Is the employee confirmed?",
+    "roman_urdu_natural": "Full-time new hire coworkers se strong feedback hai lekin manager recommendation nahi. Kya employee confirmed hai?",
+    "roman_urdu_codemixed": "Full-time new hire coworkers se strong feedback hai lekin manager recommendation nahi. Kya employee automatically confirmed hai?",
+    "expected_answer": "Coworker feedback does not replace the manager's final probation evaluation and recommendation or the required HR documentation. The standard probationary period is 90 calendar days from the employment start date. Completing 90 days alone does not automatically confirm the employee; confirmation requires the applicable performance decision and documentation through the designated HR process.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "90 calendar day probation confirmation not automatic coworker feedback confirmation"
+    },
+    "expected_retrieval_doc_id": [
+      "Probation Policy_sec8_1",
+      "Probation Policy_sec8_6",
+      "Probation Policy_sec8_14"
+    ]
+  },
+  {
+    "task_id": "probation_003",
+    "category": "probation",
+    "english_text": "A full-time new hire starts on 1 April and asks whether probation ends after 90 business days. Is the employee confirmed?",
+    "roman_urdu_natural": "Full-time new hire 1 April ko start karta hai aur poochta hai kya probation 90 business days baad end hoti hai. Kya employee confirmed hai?",
+    "roman_urdu_codemixed": "Full-time new hire 1 April ko start karta hai aur poochta hai kya probation 90 business days baad end hoti hai. Kya employee automatically confirmed hai?",
+    "expected_answer": "The policy specifies 90 calendar days, not 90 business days. The standard probationary period is 90 calendar days from the employment start date. Completing 90 days alone does not automatically confirm the employee; confirmation requires the applicable performance decision and documentation through the designated HR process.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "90 calendar day probation confirmation not automatic calendar days probation"
+    },
+    "expected_retrieval_doc_id": [
+      "Probation Policy_sec8_1",
+      "Probation Policy_sec8_6",
+      "Probation Policy_sec8_14"
+    ]
+  },
+  {
+    "task_id": "probation_004",
+    "category": "probation",
+    "english_text": "A full-time new hire receives a verbal confirmation from the manager on day 89 but no HR record. Is the employee confirmed?",
+    "roman_urdu_natural": "Full-time new hire day 89 manager se verbal confirmation milti hai lekin HR record nahi. Kya employee confirmed hai?",
+    "roman_urdu_codemixed": "Full-time new hire day 89 manager verbal confirmation deta hai lekin HR record nahi. Kya employee automatically confirmed hai?",
+    "expected_answer": "Verbal confirmation must be documented through the designated HR process; without that process, the employee is not formally confirmed under the policy. The standard probationary period is 90 calendar days from the employment start date. Completing 90 days alone does not automatically confirm the employee; confirmation requires the applicable performance decision and documentation through the designated HR process.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "90 calendar day probation confirmation not automatic verbal confirmation no HR"
+    },
+    "expected_retrieval_doc_id": [
+      "Probation Policy_sec8_1",
+      "Probation Policy_sec8_6",
+      "Probation Policy_sec8_14"
+    ]
+  },
+  {
+    "task_id": "probation_005",
+    "category": "probation",
+    "english_text": "A full-time new hire has not met performance and conduct expectations at the end of 90 days. Is the employee confirmed?",
+    "roman_urdu_natural": "Full-time new hire 90 days ke end par performance aur conduct expectations meet nahi ki. Kya employee confirmed hai?",
+    "roman_urdu_codemixed": "Full-time new hire 90 days ke end par performance aur conduct expectations meet nahi ki. Kya employee automatically confirmed hai?",
+    "expected_answer": "Successful confirmation is not automatic; the manager must make the final recommendation regarding confirmation, extension, or termination under applicable procedures. The standard probationary period is 90 calendar days from the employment start date. Completing 90 days alone does not automatically confirm the employee; confirmation requires the applicable performance decision and documentation through the designated HR process.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "90 calendar day probation confirmation not automatic probation unmet expectations"
+    },
+    "expected_retrieval_doc_id": [
+      "Probation Policy_sec8_1",
+      "Probation Policy_sec8_6",
+      "Probation Policy_sec8_14"
+    ]
+  },
+  {
+    "task_id": "probation_006",
+    "category": "probation",
+    "english_text": "A full-time new hire asks whether the manager can confirm the employee without any written record. Is the employee confirmed?",
+    "roman_urdu_natural": "Full-time new hire poochta hai kya manager bina written record employee confirm kar sakta hai. Kya employee confirmed hai?",
+    "roman_urdu_codemixed": "Full-time new hire poochta hai kya manager bina HR written record employee confirm kar sakta hai. Kya employee automatically confirmed hai?",
+    "expected_answer": "Confirmation must be documented through the designated HR process; a manager's undocumented statement is not sufficient. The standard probationary period is 90 calendar days from the employment start date. Completing 90 days alone does not automatically confirm the employee; confirmation requires the applicable performance decision and documentation through the designated HR process.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "90 calendar day probation confirmation not automatic confirmation no written record"
+    },
+    "expected_retrieval_doc_id": [
+      "Probation Policy_sec8_1",
+      "Probation Policy_sec8_6",
+      "Probation Policy_sec8_14"
+    ]
+  },
+  {
+    "task_id": "probation_007",
+    "category": "probation",
+    "english_text": "A full-time new hire has completed probation and the manager submits a confirmation recommendation. Is the employee confirmed?",
+    "roman_urdu_natural": "Full-time new hire probation complete hai aur manager confirmation recommendation submit karta hai. Kya employee confirmed hai?",
+    "roman_urdu_codemixed": "Full-time new hire probation complete hai aur manager confirmation recommendation submit karta hai. Kya employee automatically confirmed hai?",
+    "expected_answer": "The recommendation supports the confirmation process, but the employee becomes confirmed only after the applicable HR documentation is completed. The standard probationary period is 90 calendar days from the employment start date. Completing 90 days alone does not automatically confirm the employee; confirmation requires the applicable performance decision and documentation through the designated HR process.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "90 calendar day probation confirmation not automatic recommendation HR documentation"
+    },
+    "expected_retrieval_doc_id": [
+      "Probation Policy_sec8_1",
+      "Probation Policy_sec8_6",
+      "Probation Policy_sec8_14"
+    ]
+  },
+  {
+    "task_id": "probation_008",
+    "category": "probation",
+    "english_text": "A manager's probation review schedule shows the initial review is scheduled for day 30 but the manager wants to skip the day-60 evaluation. What should happen?",
+    "roman_urdu_natural": "Manager ka probation review schedule dikhata hai initial review day 30 par scheduled hai lekin manager day-60 evaluation skip karna chahta hai. Kya hona chahiye?",
+    "roman_urdu_codemixed": "Probation review schedule show karta hai initial review day 30 par scheduled hai lekin manager 60-day evaluation skip karna chahta hai. Kya karna chahiye?",
+    "expected_answer": "The policy normally calls for both an approximately 30-day initial review and a second evaluation around day 60; skipping the second review is a departure from the normal process. The manager should conduct an initial review after approximately 30 calendar days, a second evaluation around the 60th calendar day, and a final evaluation before the end of the 90-day period with a recommendation regarding confirmation, extension, or termination.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "probation 30 day 60 day final evaluation before 90 skip day 60 review"
+    },
+    "expected_retrieval_doc_id": [
+      "Probation Policy_sec8_3",
+      "Probation Policy_sec8_4",
+      "Probation Policy_sec8_5"
+    ]
+  },  {
+    "task_id": "remote_hybrid_001",
+    "category": "remote_hybrid",
+    "english_text": "An employee requests regular remote or hybrid work and has completed 89 calendar days in a remote-eligible full-time position. What is the correct rule?",
+    "roman_urdu_natural": "Employee regular remote ya hybrid work request karta hai aur remote-eligible full-time position mein 89 calendar days complete kiye hain. Sahi rule kya hai?",
+    "roman_urdu_codemixed": "Employee regular remote ya hybrid work request karta hai aur remote-eligible full-time position mein 89 calendar days complete kiye hain. Correct rule kya hai?",
+    "expected_answer": "The employee has not yet reached the 90-calendar-day point for requesting a regular arrangement under the policy. A full-time employee in a remote-eligible position may request a regular remote or hybrid arrangement after 90 calendar days of employment. During probation, specific manager approval is required. A request for a change from office-based work should normally be submitted at least 10 business days before the requested effective date, and approval depends on role, performance, operational requirements, and team needs.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "remote eligibility full time remote eligible 90 calendar days probation approval remote eligibility 89 days"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_1",
+      "Remote Hybrid Work Policy_sec4_10"
+    ]
+  },
+  {
+    "task_id": "remote_hybrid_002",
+    "category": "remote_hybrid",
+    "english_text": "An employee requests regular remote or hybrid work and has completed 90 calendar days but submits the request two business days before the effective date. What is the correct rule?",
+    "roman_urdu_natural": "Employee regular remote ya hybrid work request karta hai aur 90 calendar days complete hain lekin request effective date se two business days pehle deta hai. Sahi rule kya hai?",
+    "roman_urdu_codemixed": "Employee regular remote ya hybrid work request karta hai aur 90 calendar days complete hain lekin request effective date se 2 business days pehle submit karta hai. Correct rule kya hai?",
+    "expected_answer": "Eligibility may exist, but the request should normally be submitted at least 10 business days before the requested effective date; the timing is short of the normal notice. A full-time employee in a remote-eligible position may request a regular remote or hybrid arrangement after 90 calendar days of employment. During probation, specific manager approval is required. A request for a change from office-based work should normally be submitted at least 10 business days before the requested effective date, and approval depends on role, performance, operational requirements, and team needs.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "remote eligibility full time remote eligible 90 calendar days probation approval remote request two days notice"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_1",
+      "Remote Hybrid Work Policy_sec4_10"
+    ]
+  },
+  {
+    "task_id": "remote_hybrid_003",
+    "category": "remote_hybrid",
+    "english_text": "An employee requests regular remote or hybrid work and is still in probation and has manager approval for a temporary remote day. What is the correct rule?",
+    "roman_urdu_natural": "Employee regular remote ya hybrid work request karta hai aur abhi probation mein hai aur manager approval se temporary remote day mila hai. Sahi rule kya hai?",
+    "roman_urdu_codemixed": "Employee regular remote ya hybrid work request karta hai aur probation mein hai aur manager approval se temporary remote day approved hai. Correct rule kya hai?",
+    "expected_answer": "Specific manager approval can support remote work during probation, but it does not automatically create a regular remote or hybrid arrangement. A full-time employee in a remote-eligible position may request a regular remote or hybrid arrangement after 90 calendar days of employment. During probation, specific manager approval is required. A request for a change from office-based work should normally be submitted at least 10 business days before the requested effective date, and approval depends on role, performance, operational requirements, and team needs.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "remote eligibility full time remote eligible 90 calendar days probation approval probation temporary remote"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_1",
+      "Remote Hybrid Work Policy_sec4_10"
+    ]
+  },
+  {
+    "task_id": "remote_hybrid_004",
+    "category": "remote_hybrid",
+    "english_text": "An employee requests regular remote or hybrid work and has completed 90 days but the position is not designated remote-eligible. What is the correct rule?",
+    "roman_urdu_natural": "Employee regular remote ya hybrid work request karta hai aur 90 days complete hain lekin position remote-eligible designated nahi. Sahi rule kya hai?",
+    "roman_urdu_codemixed": "Employee regular remote ya hybrid work request karta hai aur 90 days complete hain lekin role remote-eligible nahi. Correct rule kya hai?",
+    "expected_answer": "The 90-day rule applies to full-time employees whose positions are designated remote-eligible; the policy does not support a regular arrangement for a non-eligible position. A full-time employee in a remote-eligible position may request a regular remote or hybrid arrangement after 90 calendar days of employment. During probation, specific manager approval is required. A request for a change from office-based work should normally be submitted at least 10 business days before the requested effective date, and approval depends on role, performance, operational requirements, and team needs.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "remote eligibility full time remote eligible 90 calendar days probation approval non eligible remote request"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_1",
+      "Remote Hybrid Work Policy_sec4_10"
+    ]
+  },
+  {
+    "task_id": "remote_hybrid_005",
+    "category": "remote_hybrid",
+    "english_text": "An employee requests regular remote or hybrid work and has a strong performance record but team needs require office attendance. What is the correct rule?",
+    "roman_urdu_natural": "Employee regular remote ya hybrid work request karta hai aur performance strong hai lekin team needs office attendance require karti hain. Sahi rule kya hai?",
+    "roman_urdu_codemixed": "Employee regular remote ya hybrid work request karta hai aur performance strong hai lekin team needs office attendance require karti hain. Correct rule kya hai?",
+    "expected_answer": "Approval is based on role, performance, operational requirements, and team needs; strong performance alone does not guarantee approval. A full-time employee in a remote-eligible position may request a regular remote or hybrid arrangement after 90 calendar days of employment. During probation, specific manager approval is required. A request for a change from office-based work should normally be submitted at least 10 business days before the requested effective date, and approval depends on role, performance, operational requirements, and team needs.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "remote eligibility full time remote eligible 90 calendar days probation approval remote approval team needs"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_1",
+      "Remote Hybrid Work Policy_sec4_10"
+    ]
+  },
+  {
+    "task_id": "remote_hybrid_006",
+    "category": "remote_hybrid",
+    "english_text": "An employee requests regular remote or hybrid work and asks whether 90 calendar days means 90 business days. What is the correct rule?",
+    "roman_urdu_natural": "Employee regular remote ya hybrid work request karta hai aur poochta hai kya 90 calendar days ka matlab 90 business days hai. Sahi rule kya hai?",
+    "roman_urdu_codemixed": "Employee regular remote ya hybrid work request karta hai aur poochta hai kya 90 calendar days ka matlab 90 business days hai. Correct rule kya hai?",
+    "expected_answer": "The policy specifies 90 calendar days. A full-time employee in a remote-eligible position may request a regular remote or hybrid arrangement after 90 calendar days of employment. During probation, specific manager approval is required. A request for a change from office-based work should normally be submitted at least 10 business days before the requested effective date, and approval depends on role, performance, operational requirements, and team needs.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "remote eligibility full time remote eligible 90 calendar days probation approval remote calendar days"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_1",
+      "Remote Hybrid Work Policy_sec4_10"
+    ]
+  },
+  {
+    "task_id": "remote_hybrid_007",
+    "category": "remote_hybrid",
+    "english_text": "An employee requests regular remote or hybrid work and submits a request without stating the requested effective date. What is the correct rule?",
+    "roman_urdu_natural": "Employee regular remote ya hybrid work request karta hai aur request submit karta hai lekin requested effective date state nahi karta. Sahi rule kya hai?",
+    "roman_urdu_codemixed": "Employee regular remote ya hybrid work request karta hai aur request submit karta hai lekin effective date mention nahi karta. Correct rule kya hai?",
+    "expected_answer": "The policy calls for a request at least 10 business days before the requested effective date; the employee should provide a clear requested date for review. A full-time employee in a remote-eligible position may request a regular remote or hybrid arrangement after 90 calendar days of employment. During probation, specific manager approval is required. A request for a change from office-based work should normally be submitted at least 10 business days before the requested effective date, and approval depends on role, performance, operational requirements, and team needs.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "remote eligibility full time remote eligible 90 calendar days probation approval remote request missing effective date"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_1",
+      "Remote Hybrid Work Policy_sec4_10"
+    ]
+  },
+  {
+    "task_id": "remote_hybrid_008",
+    "category": "remote_hybrid",
+    "english_text": "An employee on a standard hybrid arrangement works one office day and four remote days every week without an exception. What schedule is supported?",
+    "roman_urdu_natural": "Standard hybrid arrangement wala employee har week one office day aur four remote days work karta hai without exception. Kaun sa schedule supported hai?",
+    "roman_urdu_codemixed": "Standard hybrid employee har week 1 office day aur 4 remote days work karta hai without exception. Kaunsa schedule policy support karti hai?",
+    "expected_answer": "The schedule does not meet the standard hybrid expectation of at least 2 office days and up to 3 remote days unless an approved exception applies. The standard hybrid arrangement expects at least 2 office days per week and permits up to 3 remote days per week. Managers may designate specific in-office days, and some positions may require 3 or 4 office days because of physical collaboration, restricted equipment, supervision, or customer interaction.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "hybrid two office three remote designated in office days hybrid one office four remote"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_2",
+      "Remote Hybrid Work Policy_sec4_3"
+    ]
+  },
+  {
+    "task_id": "remote_hybrid_009",
+    "category": "remote_hybrid",
+    "english_text": "An employee on a standard hybrid arrangement works two office days and three remote days, but the manager designates different common office days. What schedule is supported?",
+    "roman_urdu_natural": "Standard hybrid arrangement wala employee two office days aur three remote days work karta hai lekin manager different common office days designate karta hai. Kaun sa schedule supported hai?",
+    "roman_urdu_codemixed": "Standard hybrid employee 2 office aur 3 remote days hain lekin manager common office days different designate karta hai. Kaunsa schedule policy support karti hai?",
+    "expected_answer": "The employee must follow the manager's designated in-office days when team coordination requires common attendance, while the standard totals remain 2 office and up to 3 remote days. The standard hybrid arrangement expects at least 2 office days per week and permits up to 3 remote days per week. Managers may designate specific in-office days, and some positions may require 3 or 4 office days because of physical collaboration, restricted equipment, supervision, or customer interaction.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "hybrid two office three remote designated in office days hybrid designated office days"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_2",
+      "Remote Hybrid Work Policy_sec4_3"
+    ]
+  },
+  {
+    "task_id": "remote_hybrid_010",
+    "category": "remote_hybrid",
+    "english_text": "An employee on a standard hybrid arrangement works three office days because the role requires restricted equipment. What schedule is supported?",
+    "roman_urdu_natural": "Standard hybrid arrangement wala employee role restricted equipment require karta hai is liye three office days work karta hai. Kaun sa schedule supported hai?",
+    "roman_urdu_codemixed": "Standard hybrid employee role restricted equipment require karta hai is liye 3 office days work karta hai. Kaunsa schedule policy support karti hai?",
+    "expected_answer": "A 3-day office requirement may be supported for roles requiring access to restricted equipment. The standard hybrid arrangement expects at least 2 office days per week and permits up to 3 remote days per week. Managers may designate specific in-office days, and some positions may require 3 or 4 office days because of physical collaboration, restricted equipment, supervision, or customer interaction.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "hybrid two office three remote designated in office days hybrid restricted equipment three days"
+    },
+    "expected_retrieval_doc_id": [
+      "Remote Hybrid Work Policy_sec4_2",
+      "Remote Hybrid Work Policy_sec4_3"
+    ]
+  }, {
+    "task_id": "training_development_001",
+    "category": "training_development",
+    "english_text": "An employee requests company-sponsored training and is full-time, has completed 90 calendar days, and selects a course directly related to current duties. Is it eligible?",
+    "roman_urdu_natural": "Employee company-sponsored training request karta hai aur full-time hai, 90 calendar days complete hain aur current duties se directly related course select karta hai. Kya eligible hai?",
+    "roman_urdu_codemixed": "Employee company-sponsored training request karta hai aur full-time hai, 90 calendar days complete hain aur current duties se directly related course select karta hai. Kya eligible hai?",
+    "expected_answer": "The request meets the stated eligibility and relevance conditions, subject to required manager approval and budget rules. Regular full-time employees may request company-sponsored training after at least 90 calendar days when it is relevant to current responsibilities or an approved development plan. Training must also be role-relevant, compliance-required, or part of an approved development plan; personal interest alone may not qualify.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "training eligibility regular full time 90 days relevant role development plan 90 days relevant training"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_1",
+      "Training Development Policy_sec13_3"
+    ]
+  },
+  {
+    "task_id": "training_development_002",
+    "category": "training_development",
+    "english_text": "An employee requests company-sponsored training and is full-time but has completed only 60 days and the course is for personal interest. Is it eligible?",
+    "roman_urdu_natural": "Employee company-sponsored training request karta hai aur full-time hai lekin sirf 60 days complete hain aur course personal interest ka hai. Kya eligible hai?",
+    "roman_urdu_codemixed": "Employee company-sponsored training request karta hai aur full-time hai lekin 60 days complete hain aur course personal interest ka hai. Kya eligible hai?",
+    "expected_answer": "The employee has not completed the 90-calendar-day eligibility period, and personal interest alone may not qualify. Regular full-time employees may request company-sponsored training after at least 90 calendar days when it is relevant to current responsibilities or an approved development plan. Training must also be role-relevant, compliance-required, or part of an approved development plan; personal interest alone may not qualify.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "training eligibility regular full time 90 days relevant role development plan training 60 days personal interest"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_1",
+      "Training Development Policy_sec13_3"
+    ]
+  },
+  {
+    "task_id": "training_development_003",
+    "category": "training_development",
+    "english_text": "An employee requests company-sponsored training and has completed 90 days but the course is unrelated to the role and not in a development plan. Is it eligible?",
+    "roman_urdu_natural": "Employee company-sponsored training request karta hai aur 90 days complete hain lekin course role se unrelated hai aur development plan mein nahi. Kya eligible hai?",
+    "roman_urdu_codemixed": "Employee company-sponsored training request karta hai aur 90 days complete hain lekin course role se unrelated hai aur development plan ka part nahi. Kya eligible hai?",
+    "expected_answer": "Eligibility timing alone is not enough; the course must be relevant to the role, required for compliance, or part of an approved development plan. Regular full-time employees may request company-sponsored training after at least 90 calendar days when it is relevant to current responsibilities or an approved development plan. Training must also be role-relevant, compliance-required, or part of an approved development plan; personal interest alone may not qualify.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "training eligibility regular full time 90 days relevant role development plan training unrelated no plan"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_1",
+      "Training Development Policy_sec13_3"
+    ]
+  },
+  {
+    "task_id": "training_development_004",
+    "category": "training_development",
+    "english_text": "An employee requests company-sponsored training and is full-time and the course is included in an approved development plan but the employee has 85 days. Is it eligible?",
+    "roman_urdu_natural": "Employee company-sponsored training request karta hai aur full-time hai aur course approved development plan mein hai lekin 85 days complete hain. Kya eligible hai?",
+    "roman_urdu_codemixed": "Employee company-sponsored training request karta hai aur full-time hai aur course approved development plan mein hai lekin 85 days complete hain. Kya eligible hai?",
+    "expected_answer": "The development plan supports relevance, but the regular full-time eligibility rule still requires at least 90 calendar days unless another policy exception applies. Regular full-time employees may request company-sponsored training after at least 90 calendar days when it is relevant to current responsibilities or an approved development plan. Training must also be role-relevant, compliance-required, or part of an approved development plan; personal interest alone may not qualify.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "training eligibility regular full time 90 days relevant role development plan training 85 days development plan"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_1",
+      "Training Development Policy_sec13_3"
+    ]
+  },
+  {
+    "task_id": "training_development_005",
+    "category": "training_development",
+    "english_text": "An employee requests company-sponsored training and has a compliance course required for the role before completing 90 days. Is it eligible?",
+    "roman_urdu_natural": "Employee company-sponsored training request karta hai aur role ke liye compliance course required hai aur 90 days complete nahi. Kya eligible hai?",
+    "roman_urdu_codemixed": "Employee company-sponsored training request karta hai aur role ke liye compliance course required hai lekin 90 days complete nahi. Kya eligible hai?",
+    "expected_answer": "Probationary or otherwise not-yet-eligible employees may qualify for required training under the policy's required-training rule; manager approval and applicable process still apply. Regular full-time employees may request company-sponsored training after at least 90 calendar days when it is relevant to current responsibilities or an approved development plan. Training must also be role-relevant, compliance-required, or part of an approved development plan; personal interest alone may not qualify.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "training eligibility regular full time 90 days relevant role development plan required training before 90"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_1",
+      "Training Development Policy_sec13_3"
+    ]
+  },
+  {
+    "task_id": "training_development_006",
+    "category": "training_development",
+    "english_text": "An employee requests company-sponsored training and is regular full-time, has completed 120 days, and asks whether manager approval can be skipped. Is it eligible?",
+    "roman_urdu_natural": "Employee company-sponsored training request karta hai aur regular full-time hai, 120 days complete hain aur manager approval skip karna chahta hai. Kya eligible hai?",
+    "roman_urdu_codemixed": "Employee company-sponsored training request karta hai aur regular full-time hai, 120 days complete hain aur manager approval skip karna chahta hai. Kya eligible hai?",
+    "expected_answer": "Eligibility does not remove the requirement to obtain manager approval before registering for company-sponsored training. Regular full-time employees may request company-sponsored training after at least 90 calendar days when it is relevant to current responsibilities or an approved development plan. Training must also be role-relevant, compliance-required, or part of an approved development plan; personal interest alone may not qualify.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "training eligibility regular full time 90 days relevant role development plan training approval after eligibility"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_1",
+      "Training Development Policy_sec13_3"
+    ]
+  },
+  {
+    "task_id": "training_development_007",
+    "category": "training_development",
+    "english_text": "An employee requests company-sponsored training and is full-time and the online course is relevant but uses an unapproved personal account. Is it eligible?",
+    "roman_urdu_natural": "Employee company-sponsored training request karta hai aur full-time hai aur online course relevant hai lekin unapproved personal account use karta hai. Kya eligible hai?",
+    "roman_urdu_codemixed": "Employee company-sponsored training request karta hai aur full-time hai aur online course relevant hai lekin unapproved personal account use karta hai. Kya eligible hai?",
+    "expected_answer": "Online training may qualify when relevance and approval requirements are met, but approved accounts or platforms must be used when company access is provided. Regular full-time employees may request company-sponsored training after at least 90 calendar days when it is relevant to current responsibilities or an approved development plan. Training must also be role-relevant, compliance-required, or part of an approved development plan; personal interest alone may not qualify.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "training eligibility regular full time 90 days relevant role development plan online training approved account"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_1",
+      "Training Development Policy_sec13_3"
+    ]
+  },
+  {
+    "task_id": "training_development_008",
+    "category": "training_development",
+    "english_text": "A probationary employee requests an external course and the course is required for a regulated responsibility and the manager approves it. What is the rule?",
+    "roman_urdu_natural": "Probationary employee external course request karta hai aur course regulated responsibility ke liye required hai aur manager approve karta hai. Rule kya hai?",
+    "roman_urdu_codemixed": "Probationary employee external course request karta hai aur course regulated responsibility ke liye required hai aur manager approve karta hai. Kya rule apply hota hai?",
+    "expected_answer": "Required training may be eligible even during probation; the applicable approval and documentation process should still be completed. Probationary employees are not normally eligible for company-sponsored external courses unless the training is required for the position or specifically approved by both the manager and HR. Exceptions to standard limits also require appropriate approval.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "probation external course required position manager HR approval probation required external course"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_2",
+      "Training Development Policy_sec13_16"
+    ]
+  },
+  {
+    "task_id": "training_development_009",
+    "category": "training_development",
+    "english_text": "A probationary employee requests an external course and the course is personal interest and only the manager approves. What is the rule?",
+    "roman_urdu_natural": "Probationary employee external course request karta hai aur course personal interest ka hai aur sirf manager approve karta hai. Rule kya hai?",
+    "roman_urdu_codemixed": "Probationary employee external course request karta hai aur course personal interest ka hai aur sirf manager approval hai. Kya rule apply hota hai?",
+    "expected_answer": "The course is not normally eligible because personal interest alone may not qualify, and HR approval is also required for the probationary exception. Probationary employees are not normally eligible for company-sponsored external courses unless the training is required for the position or specifically approved by both the manager and HR. Exceptions to standard limits also require appropriate approval.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "probation external course required position manager HR approval probation personal interest manager only"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_2",
+      "Training Development Policy_sec13_16"
+    ]
+  },
+  {
+    "task_id": "training_development_010",
+    "category": "training_development",
+    "english_text": "A probationary employee requests an external course and the course is relevant to the current role and both manager and HR approve. What is the rule?",
+    "roman_urdu_natural": "Probationary employee external course request karta hai aur course current role se relevant hai aur manager aur HR dono approve karte hain. Rule kya hai?",
+    "roman_urdu_codemixed": "Probationary employee external course request karta hai aur course current role se relevant hai aur manager aur HR dono approve karte hain. Kya rule apply hota hai?",
+    "expected_answer": "Specific manager and HR approval can support the probationary exception, subject to the remaining policy requirements. Probationary employees are not normally eligible for company-sponsored external courses unless the training is required for the position or specifically approved by both the manager and HR. Exceptions to standard limits also require appropriate approval.",
+    "expected_tool": "policy_search",
+    "expected_params": {
+      "query_topic": "probation external course required position manager HR approval probation relevant manager HR"
+    },
+    "expected_retrieval_doc_id": [
+      "Training Development Policy_sec13_2",
+      "Training Development Policy_sec13_16"
+    ]
+  }
+]
